@@ -10,6 +10,15 @@
 
 <body>
     hola mundo!!
+    <button id="btn">
+        click
+    </button>
+    <script>
+        const btn = document.querySelector('#btn')
+        btn.addEventListener('click', (() => {
+            alert('hello world')
+        }))
+    </script>
 </body>
 
 </html>
