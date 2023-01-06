@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "abbrev": "^1.1.1",
     "binary-extensions": "^2.2.0",
@@ -35,8 +36,7 @@
     "simple-update-notifier": "^1.1.0",
     "to-regex-range": "^5.0.1",
     "touch": "^3.1.0",
-    "undefsafe": "^2.0.5",
-    "type": "module"
+    "undefsafe": "^2.0.5"
   },
   "devDependencies": {},
   "scripts": {
